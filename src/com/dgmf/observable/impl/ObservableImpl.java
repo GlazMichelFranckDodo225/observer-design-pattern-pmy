@@ -36,4 +36,8 @@ public class ObservableImpl implements Observable {
 
         this.notifyObservers();
     }
+
+    public int getState() {
+        return state;
+    }
 }
